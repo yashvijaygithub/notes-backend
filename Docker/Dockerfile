@@ -1,8 +1,7 @@
-FROM java:8-alpine
+FROM openjdk:8-jdk
 
-EXPOSE 8080
+ADD springboot-mongodb-1.0.0.jar springboot-mongodb-1.0.0.jar
 
-ENTRYPOINT ["java","-Xmx1024m", "-Djava.security.egd=file:/dev/./urandom","-jar","/spring-boot-gradle-1.0.0.jar"]
+RUN sh -c 'touch /springboot-mongodb-1.0.0.jar'
 
-COPY build/application.yml application.yml
-COPY build/spring-boot-gradle-1.0.0.jar spring-boot-gradle-1.0.0.jar
+ENTRYPOINT ["java", "-Dspring.responseData.mongodb.uri=mongodb://mongodb/users","-Djava.security.egd=file:/dev/./urandom","-jar","/springboot-mongodb-1.0.0.jar"]

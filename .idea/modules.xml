@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-boot-gradle.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-boot-gradle.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-boot-gradle_main.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-boot-gradle_main.iml" group="spring-boot-gradle" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-boot-gradle_test.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-boot-gradle_test.iml" group="spring-boot-gradle" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/springboot-mongodb.iml" filepath="$PROJECT_DIR$/.idea/modules/springboot-mongodb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/springboot-mongodb_main.iml" filepath="$PROJECT_DIR$/.idea/modules/springboot-mongodb_main.iml" group="springboot-mongodb" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/springboot-mongodb_test.iml" filepath="$PROJECT_DIR$/.idea/modules/springboot-mongodb_test.iml" group="springboot-mongodb" />
     </modules>
   </component>
 </project>
