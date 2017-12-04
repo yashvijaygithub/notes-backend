@@ -1,4 +1,4 @@
-package login.dto;
+package notes.dto;
 
 /**
  * Created by vijay on 13/11/17.

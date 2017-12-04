@@ -10,7 +10,7 @@ buildscript {
     }
 }
 
-group 'springboot-mongodb'
+group 'notes-backend'
 version '1.0.0'
 
 apply plugin: 'java'
@@ -26,5 +26,7 @@ repositories {
 dependencies {
     compile 'org.springframework.boot:spring-boot-starter-web'
     compile 'org.springframework.boot:spring-boot-starter-data-mongodb'
+    compile 'joda-time:joda-time:2.5'
     testCompile('org.springframework.boot:spring-boot-starter-test')
+
 }

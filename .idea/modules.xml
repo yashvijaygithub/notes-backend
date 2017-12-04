@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/springboot-mongodb.iml" filepath="$PROJECT_DIR$/.idea/modules/springboot-mongodb.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/springboot-mongodb_main.iml" filepath="$PROJECT_DIR$/.idea/modules/springboot-mongodb_main.iml" group="springboot-mongodb" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/springboot-mongodb_test.iml" filepath="$PROJECT_DIR$/.idea/modules/springboot-mongodb_test.iml" group="springboot-mongodb" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/notes-backend.iml" filepath="$PROJECT_DIR$/.idea/modules/notes-backend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/notes-backend_main.iml" filepath="$PROJECT_DIR$/.idea/modules/notes-backend_main.iml" group="notes-backend" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/notes-backend_test.iml" filepath="$PROJECT_DIR$/.idea/modules/notes-backend_test.iml" group="notes-backend" />
     </modules>
   </component>
 </project>
